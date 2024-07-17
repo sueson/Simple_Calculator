@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <section id="main-container">
+            <div class="container">
+                <div class="input-div">
+                    <input class="input" id="display" readonly/>
+                </div>
+                <div class="btn-container">
+                    <button onclick="clearDisplay()" class="btns">AC</button>
+                    <button onclick="appendToDisplay('%')" class="btns">%</button>
+                    <button onclick="clearDisplay('C')" class="btns">C</button>
+                    <button onclick="appendToDisplay('/')" class="btns">/</button>
+                    <button onclick="appendToDisplay('7')" class="btns">7</button>
+                    <button onclick="appendToDisplay('8')" class="btns">8</button>
+                    <button onclick="appendToDisplay('9')" class="btns">9</button>
+                    <button onclick="appendToDisplay('*')" class="btns">*</button>
+                    <button onclick="appendToDisplay('4')" class="btns">4</button>
+                    <button onclick="appendToDisplay('5')" class="btns">5</button>
+                    <button onclick="appendToDisplay('6')" class="btns">6</button>
+                    <button onclick="appendToDisplay('-')" class="btns">-</button>
+                    <button onclick="appendToDisplay('1')" class="btns">1</button>
+                    <button onclick="appendToDisplay('2')" class="btns">2</button>
+                    <button onclick="appendToDisplay('3')" class="btns">3</button>
+                    <button onclick="appendToDisplay('+')" class="btns">+</button>
+                    <button onclick="appendToDisplay('00')" class="btns">00</button>
+                    <button onclick="appendToDisplay('0')" class="btns">0</button>
+                    <button onclick="appendToDisplay('.')" class="btns">.</button>
+                    <button onclick="calculate()" class="btns">=</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

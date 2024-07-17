@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.btn-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+
+.input-div{
+    padding: 10px;
+}
+
+.input{
+    padding: 20px 60px;
+}
+
+.btns{
+    padding: 20px;
+    background-color: orange;
+    color: white;
+}
+
+.btns:hover{
+    cursor: pointer;
+}
